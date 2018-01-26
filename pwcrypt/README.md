@@ -26,8 +26,11 @@ The initial directory structure will be created the first time you run the scrip
 - **vaults** - Optional location to store encrypted files.
 
 
-NOTE: The script expects to be located in a bin directory, and checks that it exists in one. By design, the other directories are generated relative to that bin directory:
-	i.e. ~/pwcrypt/bin
+**NOTE:** The script expects to be located in a bin directory, and checks that it exists in one. By design, the other directories are generated relative to that bin directory:
+
+```
+i.e. *~/pwcrypt/bin*
+```
 
 ## Usage
 ```
