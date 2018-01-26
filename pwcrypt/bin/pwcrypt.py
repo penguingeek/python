@@ -191,7 +191,7 @@ def pwEncryptor(unencryptedFile, rawUnencrypted, encryptedFile, rawEncrypted, re
 
 def main():
     # Locations
-    pwcryptHome = os.path.abspath('/Users/penguingeek/.pwcrypt/')
+    pwcryptHome = os.path.abspath('/path/to/pwcrypt home directory')
     pwcryptBin = os.path.join(pwcryptHome, 'bin/')
     pwcryptBackup = os.path.join(pwcryptHome, 'backups/')
     pwcryptVaults = os.path.join(pwcryptHome, 'vaults/')

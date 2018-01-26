@@ -10,7 +10,7 @@ You must have gpg installed and configured on your local machine
 
 ## Configuration
 
-To set the pwcrypt home directory, edit line 181:
+To set the pwcrypt home directory, edit line 194:
 ```
 pwcryptHome = os.path.abspath('</path/to/pwcrypt home directory>')  
 ```
